@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resource/features",
 		glue = {"stepDefinitions", "hooks"},
 		plugin = {"pretty", "html:target/CucumberReports/CucumberReport.html"},
-		tags = "@jobs", // @login  @dashboard  @applicants  @jobs  @organization  @client
+		tags = "@applicants", // @login  @dashboard  @applicants  @jobs  @organization  @client
 		publish = true
 		
 	)
